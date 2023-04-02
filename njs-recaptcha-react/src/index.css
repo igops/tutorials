@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra");
+
+body {
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+  background: #222;
+}
+
+.container {
+  height: 100%;
+}
+
+.locked-photo {
+  border: 2px solid #FFF;
+  border-radius: 5px;
+  width: 500px;
+  height: 500px;
+  font-family: 'Alkatra', sans-serif;
+  color: #FFF;
+  font-size: 3rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  text-shadow: 0 0 7px #222,
+  0 0 10px #222,
+  0 0 21px #222;
+}
